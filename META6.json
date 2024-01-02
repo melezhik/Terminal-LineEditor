@@ -6,9 +6,10 @@
   "build-depends": [
   ],
   "depends": [
-    "Term::termios",
-    "Terminal::ANSIParser:ver<0.0.3>",
-    "Text::MiscUtils::Layout"
+    "Term::termios:ver<0.2>",
+    "Terminal::ANSIParser:auth<zef:japhb>:ver<0.0.3+>",
+    "Terminal::Capabilities:auth<zef:japhb>:ver<0.0.1+>",
+    "Text::MiscUtils:auth<zef:japhb>:ver<0.0.8+>"
   ],
   "description": "Generalized terminal line editing",
   "license": "Artistic-2.0",
@@ -29,5 +30,5 @@
   ],
   "test-depends": [
   ],
-  "version": "0.0.13"
+  "version": "0.0.16"
 }
